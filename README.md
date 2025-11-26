@@ -9,7 +9,7 @@ Website reminder & calendar kegiatan resmi HMIT ITS dengan desain biru kebanggaa
 - Calendar view cantik otomatis terupdate
 - Desain full biru HMIT + gear berputar
 - Responsif mobile 100%
-- Background gradient biru (tanpa foto hero)
+- Background gradient biru
 
 ## Tech Stack
 - **Frontend**: React.js + Tailwind CSS + React Router
