@@ -21,9 +21,9 @@ Live Demo: https://hmit-reminder.vercel.app (setelah deploy)
 - **Deployment**: Vercel (frontend) + Render (backend)
 
 ## Struktur Folder
-hmit-reminder/
+`hmit-reminder/
 ├── frontend/           ← React + Tailwind
 ├── backend/            ← Express + MongoDB
 ├── public/             ← logo-hmit.png, gear.png
 ├── .gitignore
-└── README.md
+└── README.md`
