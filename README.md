@@ -2,8 +2,6 @@
 
 Website reminder & calendar kegiatan resmi HMIT ITS dengan desain biru kebanggaan, 100% mirip website utama HMIT!
 
-Live Demo: https://hmit-reminder.vercel.app (setelah deploy)
-
 ## Fitur Utama
 - Login & Register khusus Pengurus HMIT
 - Tambah Proker Baru + upload poster
@@ -21,7 +19,7 @@ Live Demo: https://hmit-reminder.vercel.app (setelah deploy)
 - **Deployment**: Vercel (frontend) + Render (backend)
 
 ## Struktur Folder
-`hmit-reminder/
+hmit-reminder/
 ├── frontend/           ← React + Tailwind
 
 ├── backend/            ← Express + MongoDB
@@ -30,4 +28,21 @@ Live Demo: https://hmit-reminder.vercel.app (setelah deploy)
 
 ├── .gitignore
 
-└── README.md`
+└── README.md
+
+
+## Cara Menjalankan Lokal
+```bash
+# 1. Clone repo
+git clone https://github.com/justletmecodegithub/hmit-reminder.git
+cd hmit-reminder
+
+# 2. Jalankan backend
+cd backend
+npm install
+npm run dev
+
+# 3. Jalankan frontend (terminal baru)
+cd ../frontend
+npm install
+npm start
